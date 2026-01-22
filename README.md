@@ -6,3 +6,5 @@ After the whole process we will have 3 tables
 3. History Data Table (SCD - Slowly chaning dimesion 2)
 
 The whole above activity was done on an EC2 machine using docker and docker-compose there.
+<img width="1512" height="596" alt="Screenshot 2026-01-22 at 2 06 45 PM" src="https://github.com/user-attachments/assets/e7ed03ff-ac62-4f37-826b-405c037ec393" />
+
