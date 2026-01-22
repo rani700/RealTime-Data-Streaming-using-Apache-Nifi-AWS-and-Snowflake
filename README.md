@@ -1,4 +1,4 @@
-Built a realtime streaming service which picks the data from EC2 Machine and store it in s3 bucket using the Apache NiFI, From the S3 bucket data is transferred to Snowflake using SnowPipe for the staging purpose. And then CDC (Change Data Capture) is done using snowflake stream and snowflake task.
+Built a realtime streaming service which picks the data from EC2 Machine and store it in s3 bucket using the Apache NiFI, From the S3 bucket data is transferred to Snowflake using SnowPipe for the staging purpose. And then CDC (Change Data Capture) is done using snowflake stream(object that record DML changes made to a table) and snowflake task (Task used to schedule sql statement).
 
 After the whole process we will have 3 tables
 1. Staging Data Table
